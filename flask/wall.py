@@ -106,8 +106,8 @@ def main():
     unsafe_segments = set()
     path, distance = a_star(graph, start_node, end_node, unsafe_segments)
     if path:
-        print(f"Shortest safe path from {start_node} to {end_node}: {' -> '.join(path)}")
-        print(f"Total distance: {distance:.2f} meters")
+        print(f"Shortest safe path from the  {start_node} to the {end_node}: {' -> '.join(path)}")
+        print(f"Total  distance: {distance:.2f} meters")
     else:
         print("No safe path found!")
 
